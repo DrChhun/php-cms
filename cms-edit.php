@@ -1,4 +1,6 @@
 <body>
+    <a href="/cms">back to index</a>
+    <a href="/cms/add-content.php">go to add content page</a>
     <h1 style="text-align: center; padding: 2rem;">CMS edit page</h1>
 
     <div style="max-width: 800px; margin: auto; text-align: center;">
