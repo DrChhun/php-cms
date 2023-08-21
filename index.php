@@ -18,7 +18,7 @@
                 echo '<a href="/cms/blog.php?post_id='.$data['id'].'">';
                 echo '<div class="mx-[266px] cursor-pointer">';
                 echo '<h2 class="text-2xl font-semibold mb-2 text-[#222222]">'.$data['title'].'</h2>';
-                echo '<p class="text-[#717171] text-light text-lg">'.$data['description'].'</p>';
+                echo '<p class="text-[#717171] text-light text-lg line-clamp-4">'.$data['description'].'</p>';
                 echo '<div>';
                 echo '</div>';
                 echo '<hr class="text-[#dddddd] mt-10 mb-6">';
