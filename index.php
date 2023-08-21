@@ -15,6 +15,7 @@
     <?php
         while ($data = mysqli_fetch_array($result)) {
             if ($data['title'] && $data['description']) {
+                echo '<a href="/cms/blog.php?post_id='.$data['id'].'">';
                 echo '<div class="mx-[266px] cursor-pointer">';
                 echo '<h2 class="text-2xl font-semibold mb-2 text-[#222222]">'.$data['title'].'</h2>';
                 echo '<p class="text-[#717171] text-light text-lg">'.$data['description'].'</p>';
@@ -22,6 +23,7 @@
                 echo '</div>';
                 echo '<hr class="text-[#dddddd] mt-10 mb-6">';
                 echo '</div>';
+                echo '</a>';
             }
         }
     ?>
