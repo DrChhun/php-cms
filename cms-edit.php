@@ -2,7 +2,7 @@
     require('database.php');
     require('link.php');
 
-    $result = mysqli_query($connect, "SELECT * from content");
+    $result = mysqli_query($connect, "SELECT * from content order by id DESC");
 ?>
 
 <body>
