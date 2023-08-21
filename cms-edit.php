@@ -19,8 +19,8 @@
                 echo '<div>';
                 echo '</div>';
                 echo '<div class="mt-10 flex gap-6">';
-                echo '<object data="icons/trash.svg" class="!cursor-pointer" width="24" height="24"> </object>';
-                echo '<object data="icons/status.svg" class="!cursor-pointer" width="24" height="24"> </object>';
+                echo '<a href="/cms/delete-content.php?id='.$data['id'].'"><img class="h-[24px]" src="icons/trash.jpg" alt=""></a>';
+                echo '<a href="/cms/delete-content.php"><img class="h-[24px]" src="icons/status.jpg" alt=""></a>';
                 echo '</div>';
                 echo '<hr class="text-[#dddddd] mt-10 mb-6">';
                 echo '</div>';
